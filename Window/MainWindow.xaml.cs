@@ -36,7 +36,6 @@ namespace WaifuViewer {
             {
                 toSource(Properties.Resources.Mashiro1),
                 toSource(Properties.Resources.Mashiro2),
-                toSource(Properties.Resources.Mashiro2),
                 toSource(Properties.Resources.Mashiro3),
                 toSource(Properties.Resources.Mashiro4)
             };
