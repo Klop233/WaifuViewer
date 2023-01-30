@@ -118,10 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Asuka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resource\Asuka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Asuka1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asuka1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mashiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resource\Mashiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Asuka2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asuka2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asuka3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asuka3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asuka4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asuka4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asuka5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asuka5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mashiro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mashiro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mashiro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mashiro2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mashiro3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mashiro3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mashiro4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mashiro4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

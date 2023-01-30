@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WaifuViewer"
         mc:Ignorable="d"
-        Title="Waifu 查看器 [WPF C# Demo By Klop233] [Image from Aokana]" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="MainButton" Content="Switch Waifu" Height="54" Width="204" Margin="188,0,187,25" Click="Button_Click" HorizontalContentAlignment="Center" Grid.Column="1" Grid.ColumnSpan="3" RenderTransformOrigin="0.453,1.757" VerticalAlignment="Bottom"/>
-        <Image x:Name="PhotoBox" Margin="136,20,117,102"/>
+        Title="Waifu 查看器 [WPF C# Demo By Klop233] [Image from Aokana]" Height="671" Width="1170">
+    <Grid Margin="0,0,0,-5">
+        <Image x:Name="PhotoBox" Margin="126,2,126,120"/>
+        <Button Content="Switch Waifu" HorizontalAlignment="Left" Click="OnSwitchWaifu" Margin="219,538,0,0" VerticalAlignment="Top" Height="62" Width="240"/>
+        <Button Content="Switch Photo" HorizontalAlignment="Left" Click="OnSwitchPhoto" Margin="670,538,0,0" VerticalAlignment="Top" Height="62" Width="240"/>
     </Grid>
 </Window>
