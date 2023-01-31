@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -102,7 +103,28 @@ namespace WaifuViewer {
             }
             
             title = defaultTitle + string.Format("[Current:{0} Pic: {1}]", waifus[num], pic + 1);
+            Title = title;
             PhotoBox.Source = imgs[pic];
+        }
+
+        private void OnShake(object sender, RoutedEventArgs e)
+        {
+            void shake() { 
+                while (true)
+                {
+                    PhotoBox.Dispatcher.BeginInvoke(
+                        new Action(
+                            delegate {
+                                OnSwitchPhoto(sender, e);
+                            }
+                        )
+                    );
+                    Thread.Sleep(20);
+                }
+            }
+            var childref = new ThreadStart(shake);
+            var childThread = new Thread(childref);
+            childThread.Start();
         }
     }
 }
