@@ -91,19 +91,18 @@ namespace WaifuViewer {
         private void OnSwitchPhoto(object sender, RoutedEventArgs e)
         {
             string waifu = waifus[num];
-            
+            string title;
             var imgs = photos[waifu] as List<ImageSource>;
             if (pic+1 >= imgs.Count)
             {
                 pic = 0;
-                PhotoBox.Source = imgs[pic];
-                Title = defaultTitle + string.Format("[Current:{0} Pic: {1}]", waifus[num], pic + 1);
-                return;
+            } else
+            {
+                pic++;
             }
-            pic++;
-            Title = defaultTitle + string.Format("[Current:{0} Pic: {1}]", waifus[num], pic + 1);
-            PhotoBox.Source = imgs[pic];
             
+            title = defaultTitle + string.Format("[Current:{0} Pic: {1}]", waifus[num], pic + 1);
+            PhotoBox.Source = imgs[pic];
         }
     }
 }
