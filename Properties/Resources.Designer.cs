@@ -123,6 +123,46 @@ namespace WaifuViewer.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap Mashiro10 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap Mashiro11 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap Mashiro12 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap Mashiro13 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap Mashiro2 {
             get {
                 object obj = ResourceManager.GetObject("Mashiro2", resourceCulture);
@@ -146,6 +186,56 @@ namespace WaifuViewer.Properties {
         public static System.Drawing.Bitmap Mashiro4 {
             get {
                 object obj = ResourceManager.GetObject("Mashiro4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap Mashiro5 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap Mashiro6 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap Mashiro7 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap Mashiro8 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap Mashiro9 {
+            get {
+                object obj = ResourceManager.GetObject("Mashiro9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

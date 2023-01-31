@@ -197,6 +197,33 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\Mashiro4.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mashiro13.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
